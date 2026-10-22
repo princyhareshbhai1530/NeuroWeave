@@ -313,10 +313,6 @@ Please follow the original dataset's citation and licensing requirements when re
 
 ## Project status
 
-NeuroWeave is a research prototype designed for scientific investigation and demonstration. The current evidence verdict is explicitly scoped to the validated P3–P9 cohort; additional participants should pass through the same session-aware evaluation and participant-level robustness pipeline before being added to the inferential cohort.
+NeuroWeave is a research prototype designed for scientific investigation and demonstration. The current evidence verdict is explicitly scoped to the validated P3-P9 cohort; additional participants should pass through the same session-aware evaluation and participant-level robustness pipeline before being added to the inferential cohort.
 
 ---
-
-## License
-
-Add the repository's chosen software license in a `LICENSE` file before distributing or accepting external contributions. Dataset and third-party media licensing remain separate from the NeuroWeave source-code license.
