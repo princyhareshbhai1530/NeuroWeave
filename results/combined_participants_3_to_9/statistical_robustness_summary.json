@@ -1,0 +1,18 @@
+{
+  "participants": 7,
+  "future_session_comparisons": 35,
+  "session_weighted_mean_gain": 0.037619047619047614,
+  "participant_weighted_mean_gain": 0.037619047619047614,
+  "participant_median_gain": 0.053333333333333344,
+  "clustered_bootstrap_95_ci_low": 0.017077175697865366,
+  "clustered_bootstrap_95_ci_high": 0.05251231527093593,
+  "clustered_bootstrap_probability_mean_gain_positive": 0.99975,
+  "participants_positive_mean_gain": 6,
+  "participants_negative_mean_gain": 1,
+  "participants_zero_mean_gain": 0,
+  "participant_sign_test_p_two_sided": 0.125,
+  "participant_wilcoxon_statistic": 1.0,
+  "participant_wilcoxon_p_two_sided": 0.03125,
+  "bootstrap_iterations": 20000,
+  "random_seed": 20261021
+}

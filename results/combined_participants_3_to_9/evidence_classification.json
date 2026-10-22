@@ -1,0 +1,29 @@
+{
+  "evidence_status": "adaptation benefit supported at the studied-sample level",
+  "support_level": "moderate",
+  "scope": "descriptive and sample-level inference for participants 3-9",
+  "primary_result": {
+    "mean_frozen_balanced_accuracy": 0.5972264927191036,
+    "mean_adaptive_balanced_accuracy": 0.6348455403381512,
+    "mean_adaptation_gain": 0.037619047619047614,
+    "clustered_bootstrap_95_ci": [
+      0.017077175697865366,
+      0.05251231527093593
+    ],
+    "participants_with_positive_mean_gain": 6,
+    "participants_with_negative_mean_gain": 1,
+    "participants_total": 7,
+    "wilcoxon_p_two_sided": 0.03125,
+    "sign_test_p_two_sided": 0.125
+  },
+  "supported_conclusion": "Cumulative prior-session retraining improved balanced accuracy on average in this seven-participant sample, but the benefit was participant- and session-dependent.",
+  "important_tension": "The participant-level Wilcoxon test and clustered bootstrap support a positive mean effect, while the two-sided participant sign test does not reach 0.05 with only seven participants.",
+  "not_supported": [
+    "A universal benefit in every participant or session",
+    "A causal neural-adaptation or neuroplasticity conclusion",
+    "A claim that covariance drift identifies the physical source of change",
+    "Population-level generalization beyond the studied sample"
+  ],
+  "recommended_claim": "Across seven participants and 35 future-session comparisons, cumulative prior-session retraining increased mean balanced accuracy from 0.597 to 0.635. The participant-clustered 95% bootstrap interval for mean gain was approximately 0.017 to 0.053. Six of seven participants improved on average, but session-level losses occurred, so adaptation should be monitored and selectively applied rather than assumed beneficial.",
+  "recommended_next_measurement": "Evaluate a policy that enables adaptation only when held-out or online monitoring predicts benefit, and collect electrode/contact-quality or impedance metadata to separate recording-interface drift from neural change."
+}

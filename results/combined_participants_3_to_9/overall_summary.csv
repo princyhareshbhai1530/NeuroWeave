@@ -1,0 +1,2 @@
+participants,future_session_comparisons,mean_frozen_balanced_accuracy,mean_adaptive_balanced_accuracy,mean_adaptation_gain,positive_gains,negative_gains,zero_gains
+7,35,0.5972264927191036,0.6348455403381512,0.037619047619047635,20,7,8
