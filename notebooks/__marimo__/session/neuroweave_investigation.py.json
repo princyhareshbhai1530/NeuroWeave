@@ -1,0 +1,295 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.25.2",
+    "script_metadata_hash": null
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "0930b4deae017bc61cf70e553eb90067",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: column;justify-content: flex-start;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><marimo-ui-element object-id='Hbol-0' random-id='b33e029a-3b7f-0684-355a-2cd01fec774c'><marimo-anywidget data-initial-value='{&quot;model_id&quot;:&quot;a55ce6760a224ebaadcbe9ff568249b7&quot;}' data-label='null' data-model-id='&quot;a55ce6760a224ebaadcbe9ff568249b7&quot;'></marimo-anywidget></marimo-ui-element></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "MJUe",
+      "code_hash": "5c434f164343b9121cff3f8a82f2d377",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "cdaf4d29ac09bcd5e9c88c5ffa3cfb12",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"neuroweave-interactive-evidence-investigation\">NeuroWeave Interactive Evidence Investigation</h1>\n<h3 id=\"when-performance-changes-across-sessions-what-changed\">When performance changes across sessions, what changed?</h3>\n<span class=\"paragraph\">NeuroWeave compares a frozen decoder with a causal cumulative\ndecoder, preserves harmful adaptation outcomes, evaluates\nparticipant-level robustness, and connects experimental findings\nwith scientific literature retrieved through Valency MCP Bond.</span>\n<span class=\"paragraph\"><strong>Validated cohort:</strong> Participants 3\u20139\n<strong>Future-session comparisons:</strong> 35\n<strong>Primary metric:</strong> Balanced accuracy</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "868d1f6ccd6e4cbc2f7f94db4708b242",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "lEQa",
+      "code_hash": "46b751d41a91907dc32c8274281a5fb1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: space-between;align-items: normal;flex-wrap: nowrap;gap: 0.5rem'><div style='flex: 1'><marimo-stat data-value='&quot;20&quot;' data-label='&quot;Sessions helped&quot;' data-bordered='true' data-target_direction='&quot;increase&quot;'></marimo-stat></div><div style='flex: 1'><marimo-stat data-value='&quot;7&quot;' data-label='&quot;Sessions harmed&quot;' data-bordered='true' data-target_direction='&quot;increase&quot;'></marimo-stat></div><div style='flex: 1'><marimo-stat data-value='&quot;8&quot;' data-label='&quot;Zero-gain sessions&quot;' data-bordered='true' data-target_direction='&quot;increase&quot;'></marimo-stat></div></div>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "PKri",
+      "code_hash": "b48d06c792b15272a35e0083a8aab0ae",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='PKri-0' random-id='3a2ab001-6fb2-96c1-f84f-dbda7831b641'><marimo-dropdown data-initial-value='[&quot;9&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eSelect a participant&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Xref",
+      "code_hash": "eca3fe7b59fdbe9b141fbba402227cb1",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "SFPL",
+      "code_hash": "0e3b1d3c188d00579644373168bc2eca",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='SFPL-0' random-id='628b8f1d-08dc-f31e-43ec-24bcefc34a55'><marimo-dropdown data-initial-value='[&quot;2&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eSelect a future session&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;1&quot;,&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "BYtC",
+      "code_hash": "6f6609b2ba062934342d15471819efcf",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "RGSE",
+      "code_hash": "15a1abb78f200c2e33945a77cef32158",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"selected-investigation\">Selected investigation</h2>\n<span class=\"paragraph\"><strong>Participant 9, Session 2</strong></span>\n<div style=\"\n    display:grid;\n    grid-template-columns:repeat(3,1fr);\n    gap:16px;\n    margin-top:12px;\n\">\n    <div style=\"\n        padding:18px;\n        border-radius:14px;\n        border:1px solid #315468;\n        background:#0b1c28;\n    \">\n        <div style=\"color:#91a6b5;font-size:13px;\">\n            FROZEN DECODER\n        </div>\n        <div style=\"\n            color:#f5fbff;\n            font-size:34px;\n            font-weight:700;\n        \">\n            0.846\n        </div>\n    </div>\n\n    <div style=\"\n        padding:18px;\n        border-radius:14px;\n        border:1px solid #315468;\n        background:#0b1c28;\n    \">\n        <div style=\"color:#91a6b5;font-size:13px;\">\n            ADAPTIVE DECODER\n        </div>\n        <div style=\"\n            color:#f5fbff;\n            font-size:34px;\n            font-weight:700;\n        \">\n            0.639\n        </div>\n    </div>\n\n    <div style=\"\n        padding:18px;\n        border-radius:14px;\n        border:1px solid #ef6259;\n        background:#0b1c28;\n    \">\n        <div style=\"color:#91a6b5;font-size:13px;\">\n            ADAPTATION GAIN\n        </div>\n        <div style=\"\n            color:#ef6259;\n            font-size:34px;\n            font-weight:700;\n        \">\n            \u25bc -0.207\n        </div>\n        <div style=\"\n            color:#ef6259;\n            font-weight:600;\n        \">\n            Adaptation hurt\n        </div>\n    </div>\n</div></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Kclp",
+      "code_hash": "da490001f1c5c437cb5524eec2ff4487",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Kclp-0' random-id='7a1d6b53-569c-5f84-49f9-d3a91251b833'><marimo-switch data-initial-value='false' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eShow only harmful adaptation outcomes&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-disabled='false'></marimo-switch></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "emfo",
+      "code_hash": "1d855250441faf2e74bcc7a3f1e1deeb",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hstk",
+      "code_hash": "1b6df7fd64efd009bfc53173b1e5b187",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='Hstk-0' random-id='19956aa1-67f7-38ad-4637-99b88b71a2ae'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;participant&#92;&quot;:3,&#92;&quot;session&#92;&quot;:1,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.4262820512820512,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.4262820512820512,&#92;&quot;adaptation_gain&#92;&quot;:0.0,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Zero&#92;&quot;},{&#92;&quot;participant&#92;&quot;:3,&#92;&quot;session&#92;&quot;:2,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.5,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.4333333333333333,&#92;&quot;adaptation_gain&#92;&quot;:-0.0666666666666667,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Hurt&#92;&quot;},{&#92;&quot;participant&#92;&quot;:3,&#92;&quot;session&#92;&quot;:3,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.5022988505747127,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.5603448275862069,&#92;&quot;adaptation_gain&#92;&quot;:0.0580459770114941,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Helped&#92;&quot;},{&#92;&quot;participant&#92;&quot;:3,&#92;&quot;session&#92;&quot;:4,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.55,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.6666666666666667,&#92;&quot;adaptation_gain&#92;&quot;:0.1166666666666667,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Helped&#92;&quot;},{&#92;&quot;participant&#92;&quot;:3,&#92;&quot;session&#92;&quot;:5,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.4655172413793103,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.5172413793103449,&#92;&quot;adaptation_gain&#92;&quot;:0.0517241379310345,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Helped&#92;&quot;},{&#92;&quot;participant&#92;&quot;:4,&#92;&quot;session&#92;&quot;:1,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.6282051282051282,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.6282051282051282,&#92;&quot;adaptation_gain&#92;&quot;:0.0,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Zero&#92;&quot;},{&#92;&quot;participant&#92;&quot;:4,&#92;&quot;session&#92;&quot;:2,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.603448275862069,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.7068965517241379,&#92;&quot;adaptation_gain&#92;&quot;:0.1034482758620689,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Helped&#92;&quot;},{&#92;&quot;participant&#92;&quot;:4,&#92;&quot;session&#92;&quot;:3,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.6643678160919539,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.6965517241379311,&#92;&quot;adaptation_gain&#92;&quot;:0.0321839080459771,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Helped&#92;&quot;},{&#92;&quot;participant&#92;&quot;:4,&#92;&quot;session&#92;&quot;:4,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.5344827586206896,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.6724137931034483,&#92;&quot;adaptation_gain&#92;&quot;:0.1379310344827586,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Helped&#92;&quot;},{&#92;&quot;participant&#92;&quot;:4,&#92;&quot;session&#92;&quot;:5,&#92;&quot;frozen_balanced_accuracy&#92;&quot;:0.7440476190476191,&#92;&quot;adaptive_balanced_accuracy&#92;&quot;:0.6047619047619048,&#92;&quot;adaptation_gain&#92;&quot;:-0.1392857142857142,&#92;&quot;outcome&#92;&quot;:&#92;&quot;Hurt&#92;&quot;}]&quot;' data-total-rows='35' data-total-columns='6' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;participant&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;session&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;frozen_balanced_accuracy&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;adaptive_balanced_accuracy&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;adaptation_gain&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;outcome&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-freeze-columns-left='[&quot;participant&quot;,&quot;session&quot;]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "nWHF",
+      "code_hash": "7bc1ee41082407641c9517980f5f42f5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"participant-9-the-reversal-that-changes-the-decision\">Participant 9: the reversal that changes the decision</h2>\n<div style=\"\n    display:grid;\n    grid-template-columns:1fr 1fr;\n    gap:18px;\n\">\n    <div style=\"\n        padding:20px;\n        border-radius:16px;\n        background:#29181b;\n        border:1px solid #ef6259;\n    \">\n        <div style=\"\n            color:#ef6259;\n            font-weight:700;\n            font-size:14px;\n        \">\n            SESSION 2 \u00b7 WARNING\n        </div>\n\n        <div style=\"\n            font-size:22px;\n            margin-top:12px;\n        \">\n            Frozen 0.846\n            \u2192 Adaptive 0.639\n        </div>\n\n        <div style=\"\n            color:#ef6259;\n            font-size:30px;\n            font-weight:700;\n            margin-top:8px;\n        \">\n            -0.207\n        </div>\n\n        <div>\n            Adaptation harmed this future session.\n        </div>\n    </div>\n\n    <div style=\"\n        padding:20px;\n        border-radius:16px;\n        background:#102824;\n        border:1px solid #18b59b;\n    \">\n        <div style=\"\n            color:#18b59b;\n            font-weight:700;\n            font-size:14px;\n        \">\n            SESSION 5 \u00b7 REVERSAL\n        </div>\n\n        <div style=\"\n            font-size:22px;\n            margin-top:12px;\n        \">\n            Frozen 0.567\n            \u2192 Adaptive 0.845\n        </div>\n\n        <div style=\"\n            color:#18b59b;\n            font-size:30px;\n            font-weight:700;\n            margin-top:8px;\n        \">\n            +0.278\n        </div>\n\n        <div>\n            Adaptation rescued this future session.\n        </div>\n    </div>\n</div>\n\n<blockquote>\n<span class=\"paragraph\">The same participant contains evidence both for and against\nadaptation. The correct decision is conditional, not universal.</span>\n</blockquote></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "iLit",
+      "code_hash": "b213baae19a18708719224af50defd25",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='iLit-0' random-id='d369255e-a04a-3c6a-27d7-ec90cf619cdb'><marimo-dropdown data-initial-value='[&quot;None&quot;]' data-label='&quot;&#92;u003cspan class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&#92;u003e&#92;u003cspan class=&#92;&quot;paragraph&#92;&quot;&#92;u003eExclude one participant&#92;u003c/span&#92;u003e&#92;u003c/span&#92;u003e&quot;' data-options='[&quot;None&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;]' data-allow-select-none='false' data-searchable='false' data-full-width='false' data-disabled='false'></marimo-dropdown></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ZHCJ",
+      "code_hash": "a7d5a9391a663997bd7ce4af13fe4bf7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ROlb",
+      "code_hash": "39293b760cc7e021ae016dafde8e8f03",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"participant-level-robustness-challenge\">Participant-level robustness challenge</h2>\n<span class=\"paragraph\"><strong>No participant excluded</strong></span>\n<div style=\"\n    padding:20px;\n    border-radius:16px;\n    background:#0b1c28;\n    border:1px solid #18b59b;\n\">\n    <div style=\"\n        color:#91a6b5;\n        font-size:13px;\n    \">\n        REMAINING PARTICIPANTS\n    </div>\n\n    <div style=\"\n        font-size:26px;\n        font-weight:700;\n    \">\n        7\n    </div>\n\n    <div style=\"\n        color:#91a6b5;\n        font-size:13px;\n        margin-top:12px;\n    \">\n        UPDATED MEAN GAIN\n    </div>\n\n    <div style=\"\n        color:#18b59b;\n        font-size:34px;\n        font-weight:700;\n    \">\n        +0.037619\n    </div>\n\n    <div style=\"\n        color:#18b59b;\n        font-weight:700;\n    \">\n        Mean adaptation gain remains positive\n    </div>\n</div></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "qnkX",
+      "code_hash": "5067e53274b27450784490dd3e8cda0f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='qnkX-0' random-id='8de7aa5d-5b74-50ee-e4ff-0cbbfdf6c529'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;excluded_participant&#92;&quot;:3,&#92;&quot;remaining_mean_gain&#92;&quot;:0.0385632183908046},{&#92;&quot;excluded_participant&#92;&quot;:4,&#92;&quot;remaining_mean_gain&#92;&quot;:0.0394129720853858},{&#92;&quot;excluded_participant&#92;&quot;:5,&#92;&quot;remaining_mean_gain&#92;&quot;:0.0465708812260536},{&#92;&quot;excluded_participant&#92;&quot;:6,&#92;&quot;remaining_mean_gain&#92;&quot;:0.0347441160372194},{&#92;&quot;excluded_participant&#92;&quot;:7,&#92;&quot;remaining_mean_gain&#92;&quot;:0.0349999999999999},{&#92;&quot;excluded_participant&#92;&quot;:8,&#92;&quot;remaining_mean_gain&#92;&quot;:0.0341762452107279},{&#92;&quot;excluded_participant&#92;&quot;:9,&#92;&quot;remaining_mean_gain&#92;&quot;:0.0348659003831417}]&quot;' data-total-rows='7' data-total-columns='2' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='7' data-field-types='[[&quot;excluded_participant&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;remaining_mean_gain&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "TqIu",
+      "code_hash": "257004a716c6774dcda212a1dd7e37b5",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"neuroweave-hypothesis-verdict\">NeuroWeave hypothesis verdict</h2>\n<div style=\"\n    display:grid;\n    grid-template-columns:repeat(2,1fr);\n    gap:16px;\n\">\n    <div style=\"\n        padding:18px;\n        border-radius:14px;\n        background:#102824;\n        border:1px solid #18b59b;\n    \">\n        <strong style=\"color:#18b59b;\">\n            Decoder adaptation\n        </strong>\n        <span class=\"paragraph\">\n            Moderately supported within the studied sample.\n        </span>\n    </div>\n\n    <div style=\"\n        padding:18px;\n        border-radius:14px;\n        background:#292214;\n        border:1px solid #efb95a;\n    \">\n        <strong style=\"color:#efb95a;\">\n            Recording/session drift\n        </strong>\n        <span class=\"paragraph\">\n            Plausible, but the physical cause is unresolved.\n        </span>\n    </div>\n\n    <div style=\"\n        padding:18px;\n        border-radius:14px;\n        background:#271a20;\n        border:1px solid #ef6259;\n    \">\n        <strong style=\"color:#ef6259;\">\n            Decision-boundary effects\n        </strong>\n        <span class=\"paragraph\">\n            Important competing explanation requiring\n            calibration-focused testing.\n        </span>\n    </div>\n\n    <div style=\"\n        padding:18px;\n        border-radius:14px;\n        background:#211b30;\n        border:1px solid #9d80ff;\n    \">\n        <strong style=\"color:#9d80ff;\">\n            Neural adaptation\n        </strong>\n        <span class=\"paragraph\">\n            Not established by accuracy changes alone.\n        </span>\n    </div>\n</div></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Vxnm",
+      "code_hash": "f4750132576780f8c08f541fe969d7c8",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "DnEU",
+      "code_hash": "398de5570afa2638f1a25b1ebfdadd68",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='DnEU-0' random-id='44b734af-46b6-6aa3-d572-08a25f1087dd'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;query&#92;&quot;:&#92;&quot;cross_session_variability&#92;&quot;,&#92;&quot;hypothesis&#92;&quot;:&#92;&quot;recording_or_session_drift&#92;&quot;,&#92;&quot;direction&#92;&quot;:&#92;&quot;supports&#92;&quot;,&#92;&quot;year&#92;&quot;:2022,&#92;&quot;paper&#92;&quot;:&#92;&quot;A large EEG dataset for studying cross-session variability in motor imagery brain-computer interface.&#92;&quot;,&#92;&quot;finding&#92;&quot;:&#92;&quot;In a dataset of 25 participants across five days, within-session classification accuracy was reported as up to 68.8%, cross-session accuracy was 53.7%, and cross-session adaptation accuracy was 78.9%.&#92;&quot;,&#92;&quot;limitation&#92;&quot;:&#92;&quot;The reported results are dataset benchmarks across five recording days; they do not test sustained home use, assistive performance, or rehabilitation outcomes.&#92;&quot;,&#92;&quot;doi&#92;&quot;:&#92;&quot;10.1038/s41597-022-01647-1&#92;&quot;,&#92;&quot;source&#92;&quot;:&#92;&quot;https://pubmed.ncbi.nlm.nih.gov/36050394/&#92;&quot;},{&#92;&quot;query&#92;&quot;:&#92;&quot;cross_session_variability&#92;&quot;,&#92;&quot;hypothesis&#92;&quot;:&#92;&quot;recording_or_session_drift&#92;&quot;,&#92;&quot;direction&#92;&quot;:&#92;&quot;context&#92;&quot;,&#92;&quot;year&#92;&quot;:2023,&#92;&quot;paper&#92;&quot;:&#92;&quot;Discrepancy between inter- and intra-subject variability in EEG-based motor imagery brain-computer interface: Evidence from multiple perspectives.&#92;&quot;,&#92;&quot;finding&#92;&quot;:&#92;&quot;The study reports that variability can reduce model generalization and that cross-session and cross-subject EEG feature patterns differ, suggesting they may require different training-sample selection strategies.&#92;&quot;,&#92;&quot;limitation&#92;&quot;:&#92;&quot;The study does not establish the mechanism causing session changes or test everyday assistive use.&#92;&quot;,&#92;&quot;doi&#92;&quot;:&#92;&quot;10.3389/fnins.2023.1122661&#92;&quot;,&#92;&quot;source&#92;&quot;:&#92;&quot;https://pubmed.ncbi.nlm.nih.gov/36860620/&#92;&quot;},{&#92;&quot;query&#92;&quot;:&#92;&quot;cross_session_variability&#92;&quot;,&#92;&quot;hypothesis&#92;&quot;:&#92;&quot;recording_or_session_drift&#92;&quot;,&#92;&quot;direction&#92;&quot;:&#92;&quot;supports&#92;&quot;,&#92;&quot;year&#92;&quot;:2024,&#92;&quot;paper&#92;&quot;:&#92;&quot;Session-independent subject-adaptive mental imagery BCI using selective filter-bank adaptive Riemannian features.&#92;&quot;,&#92;&quot;finding&#92;&quot;:&#92;&quot;The proposed features showed around 15% and 8% improvement in mean accuracy over baseline and fixed filter-bank models, respectively, across four public datasets.&#92;&quot;,&#92;&quot;limitation&#92;&quot;:&#92;&quot;The study covers mental imagery beyond motor imagery and reports dataset-based evaluation rather than everyday home-use or rehabilitation outcomes.&#92;&quot;,&#92;&quot;doi&#92;&quot;:&#92;&quot;10.1007/s11517-024-03137-5&#92;&quot;,&#92;&quot;source&#92;&quot;:&#92;&quot;https://pubmed.ncbi.nlm.nih.gov/38825665/&#92;&quot;},{&#92;&quot;query&#92;&quot;:&#92;&quot;cross_session_variability&#92;&quot;,&#92;&quot;hypothesis&#92;&quot;:&#92;&quot;recording_or_session_drift&#92;&quot;,&#92;&quot;direction&#92;&quot;:&#92;&quot;supports&#92;&quot;,&#92;&quot;year&#92;&quot;:2024,&#92;&quot;paper&#92;&quot;:&#92;&quot;Improving inter-session performance via relevant session-transfer for multi-session motor imagery classification.&#92;&quot;,&#92;&quot;finding&#92;&quot;:&#92;&quot;Relevant-session transfer improved performance by 2.29% on the Shu dataset (p &#92;u003c 0.001) and by up to 6.37% on the authors&#x27; gait-related motor-imagery dataset, compared with self-calibration.&#92;&quot;,&#92;&quot;limitation&#92;&quot;:&#92;&quot;The evaluation used two datasets and does not report a home-use trial, sustained deployment, or clinical benefit.&#92;&quot;,&#92;&quot;doi&#92;&quot;:&#92;&quot;10.1016/j.heliyon.2024.e37343&#92;&quot;,&#92;&quot;source&#92;&quot;:&#92;&quot;https://pubmed.ncbi.nlm.nih.gov/39296025/&#92;&quot;},{&#92;&quot;query&#92;&quot;:&#92;&quot;cross_session_variability&#92;&quot;,&#92;&quot;hypothesis&#92;&quot;:&#92;&quot;recording_or_session_drift&#92;&quot;,&#92;&quot;direction&#92;&quot;:&#92;&quot;supports&#92;&quot;,&#92;&quot;year&#92;&quot;:2025,&#92;&quot;paper&#92;&quot;:&#92;&quot;Unsupervised Domain Adaptation With Synchronized Self-Training for Cross-Domain Motor Imagery Recognition.&#92;&quot;,&#92;&quot;finding&#92;&quot;:&#92;&quot;The proposed synchronized self-training domain-adaptation method outperformed comparison methods in inter-session experiments, using labeled source-domain data and unlabeled target-domain data.&#92;&quot;,&#92;&quot;limitation&#92;&quot;:&#92;&quot;The abstract reports evaluation on public datasets and a new six-class dataset, but does not report home-use or clinical-outcome testing.&#92;&quot;,&#92;&quot;doi&#92;&quot;:&#92;&quot;10.1109/JBHI.2025.3525577&#92;&quot;,&#92;&quot;source&#92;&quot;:&#92;&quot;https://pubmed.ncbi.nlm.nih.gov/40031262/&#92;&quot;}]&quot;' data-total-rows='10' data-total-columns='9' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='5' data-field-types='[[&quot;query&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;hypothesis&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;direction&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;year&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;paper&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;finding&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;limitation&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;doi&quot;,[&quot;string&quot;,&quot;str&quot;]],[&quot;source&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-show-filters='true' data-show-download='true' data-show-search='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-freeze-columns-left='[&quot;direction&quot;,&quot;year&quot;]' data-hidden-columns='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ulZA",
+      "code_hash": "ab64ea28e7284334d8121b92c792259d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h2 id=\"final-scoped-verdict\">Final scoped verdict</h2>\n<blockquote>\n<span class=\"paragraph\"><strong>Moderate support for an adaptation benefit within the\nvalidated P3\u2013P9 sample.</strong></span>\n</blockquote>\n<span class=\"paragraph\">The average adaptation effect is positive and remains positive\nunder leave-one-participant-out analysis. However, adaptation\nproduced harmful and zero-gain outcomes. NeuroWeave therefore\ndoes not recommend enabling adaptation blindly.</span>\n<h3 id=\"claims-supported\">Claims supported</h3>\n<ul>\n<li>Cumulative prior-session adaptation improves balanced accuracy\n  on average within the studied sample.</li>\n<li>The benefit varies across participants and sessions.</li>\n<li>Monitoring should precede the adaptation decision.</li>\n</ul>\n<h3 id=\"claims-not-supported\">Claims not supported</h3>\n<ul>\n<li>Adaptation helps every participant or every session.</li>\n<li>Accuracy improvement proves neuroplasticity.</li>\n<li>The experiment identifies the physical cause of EEG drift.</li>\n<li>The result generalizes to all BCI users.</li>\n</ul>\n<h3 id=\"highest-value-next-measurements\">Highest-value next measurements</h3>\n<ol>\n<li>Run a training-size-matched comparison.</li>\n<li>Evaluate a selective-adaptation policy.</li>\n<li>Collect electrode impedance or contact-quality measurements.</li>\n<li>Record cap-position metadata.</li>\n<li>Examine direct task-related EEG-pattern stability.</li>\n</ol></span>"
+          }
+        }
+      ],
+      "console": []
+    }
+  ]
+}

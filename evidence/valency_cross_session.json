@@ -1,0 +1,62 @@
+{
+  "query_id": "cross_session_variability",
+  "hypothesis": "recording_or_session_drift",
+  "retrieved_via": "Valency MCP Bond",
+  "papers": [
+    {
+      "title": "A large EEG dataset for studying cross-session variability in motor imagery brain-computer interface.",
+      "year": 2022,
+      "doi": "10.1038/s41597-022-01647-1",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36050394/",
+      "research_source": "PubMed",
+      "evidence_direction": "supports",
+      "key_finding": "In a dataset of 25 participants across five days, within-session classification accuracy was reported as up to 68.8%, cross-session accuracy was 53.7%, and cross-session adaptation accuracy was 78.9%.",
+      "limitation": "The reported results are dataset benchmarks across five recording days; they do not test sustained home use, assistive performance, or rehabilitation outcomes.",
+      "neuroweave_relevance": "Supports session-associated decoding performance changes and motivates testing adaptation, but does not identify the cause of the changes."
+    },
+    {
+      "title": "Discrepancy between inter- and intra-subject variability in EEG-based motor imagery brain-computer interface: Evidence from multiple perspectives.",
+      "year": 2023,
+      "doi": "10.3389/fnins.2023.1122661",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36860620/",
+      "research_source": "PubMed",
+      "evidence_direction": "context",
+      "key_finding": "The study reports that variability can reduce model generalization and that cross-session and cross-subject EEG feature patterns differ, suggesting they may require different training-sample selection strategies.",
+      "limitation": "The study does not establish the mechanism causing session changes or test everyday assistive use.",
+      "neuroweave_relevance": "Contextualizes session variability as distinct from between-person variability and cautions against inferring a specific cause from performance changes alone."
+    },
+    {
+      "title": "Session-independent subject-adaptive mental imagery BCI using selective filter-bank adaptive Riemannian features.",
+      "year": 2024,
+      "doi": "10.1007/s11517-024-03137-5",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38825665/",
+      "research_source": "PubMed",
+      "evidence_direction": "supports",
+      "key_finding": "The proposed features showed around 15% and 8% improvement in mean accuracy over baseline and fixed filter-bank models, respectively, across four public datasets.",
+      "limitation": "The study covers mental imagery beyond motor imagery and reports dataset-based evaluation rather than everyday home-use or rehabilitation outcomes.",
+      "neuroweave_relevance": "Supports the relevance of inter-session variation as a robustness challenge and reports an adaptive approach, but does not establish real-world reliability or the cause of drift."
+    },
+    {
+      "title": "Improving inter-session performance via relevant session-transfer for multi-session motor imagery classification.",
+      "year": 2024,
+      "doi": "10.1016/j.heliyon.2024.e37343",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39296025/",
+      "research_source": "PubMed",
+      "evidence_direction": "supports",
+      "key_finding": "Relevant-session transfer improved performance by 2.29% on the Shu dataset (p < 0.001) and by up to 6.37% on the authors' gait-related motor-imagery dataset, compared with self-calibration.",
+      "limitation": "The evaluation used two datasets and does not report a home-use trial, sustained deployment, or clinical benefit.",
+      "neuroweave_relevance": "Directly supports cross-session performance change and reports a transfer-based mitigation approach, but does not identify why session data differ."
+    },
+    {
+      "title": "Unsupervised Domain Adaptation With Synchronized Self-Training for Cross-Domain Motor Imagery Recognition.",
+      "year": 2025,
+      "doi": "10.1109/JBHI.2025.3525577",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40031262/",
+      "research_source": "PubMed",
+      "evidence_direction": "supports",
+      "key_finding": "The proposed synchronized self-training domain-adaptation method outperformed comparison methods in inter-session experiments, using labeled source-domain data and unlabeled target-domain data.",
+      "limitation": "The abstract reports evaluation on public datasets and a new six-class dataset, but does not report home-use or clinical-outcome testing.",
+      "neuroweave_relevance": "Supports the practical importance of distribution changes across domains and sessions and the potential value of adaptation, but does not establish the underlying cause of those changes."
+    }
+  ]
+}

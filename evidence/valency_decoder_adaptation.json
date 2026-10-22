@@ -1,0 +1,62 @@
+{
+  "query_id": "decoder_adaptation",
+  "hypothesis": "decoder_adaptation_benefit",
+  "retrieved_via": "Valency MCP Bond",
+  "papers": [
+    {
+      "title": "A large EEG dataset for studying cross-session variability in motor imagery brain-computer interface.",
+      "year": 2022,
+      "doi": "10.1038/s41597-022-01647-1",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36050394/",
+      "research_source": "PubMed",
+      "evidence_direction": "supports",
+      "key_finding": "In 25 participants recorded across five days, reported classification accuracy was 68.8% within-session, 53.7% cross-session, and 78.9% with cross-session adaptation.",
+      "counterevidence_or_limitation": "The abstract reports benchmark results but does not describe a matched-training-volume control that isolates adaptation from the benefit of adding training data. Dataset results are not a test of sustained home use.",
+      "neuroweave_relevance": "Provides a direct cross-session benchmark and supports testing adaptation on held-out sessions. To separate adaptation benefit from data-volume benefit, compare adaptation with a control trained on the same number of trials, using equivalent session splits and evaluation."
+    },
+    {
+      "title": "Improving inter-session performance via relevant session-transfer for multi-session motor imagery classification.",
+      "year": 2024,
+      "doi": "10.1016/j.heliyon.2024.e37343",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39296025/",
+      "research_source": "PubMed",
+      "evidence_direction": "supports",
+      "key_finding": "Relevant-session transfer, which uses selected EEG data from a previous session, improved performance by 2.29% on the Shu dataset (p < 0.001) and up to 6.37% on a gait-related motor-imagery dataset compared with self-calibration.",
+      "counterevidence_or_limitation": "The abstract does not report a matched-volume comparison, so the reported improvement does not isolate session-aware transfer from the effect of adding training data. It does not establish home-use or clinical benefit.",
+      "neuroweave_relevance": "Directly compares prior-session transfer with current-session self-calibration. A NeuroWeave control should match the number of training trials between cumulative adaptation and a non-session-selective data-volume baseline, then evaluate on the same future sessions."
+    },
+    {
+      "title": "An adaptive session-incremental broad learning system for continuous motor imagery EEG classification.",
+      "year": 2025,
+      "doi": "10.1007/s11517-024-03246-1",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39612132/",
+      "research_source": "PubMed",
+      "evidence_direction": "context",
+      "key_finding": "The proposed adaptive session-incremental system was evaluated on BCI Competition IV-2a with two sessions and IV-2b with five sessions, reporting average decoding accuracies of 79.89% and 87.04%, respectively; the study also evaluated kappa and forgetting rate.",
+      "counterevidence_or_limitation": "The abstract does not provide a frozen-decoder comparison or matched-volume control, and the reported averages alone do not establish that adaptation improved performance on an unseen future session.",
+      "neuroweave_relevance": "Its sequential-session framing and use of a forgetting metric are relevant to cumulative adaptation. NeuroWeave can test both future-session accuracy and whether adding sessions harms earlier-session performance, while matching training volume in a comparator."
+    },
+    {
+      "title": "Towards subject-centered co-adaptive brain-computer interfaces based on backward optimal transport.",
+      "year": 2025,
+      "doi": "10.1088/1741-2552/addb7a",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40398442/",
+      "research_source": "PubMed",
+      "evidence_direction": "context",
+      "key_finding": "The study describes backward optimal transport for across-session motor-imagery BCI use without classifier retraining and evaluates a supportive backward adaptation approach using real and simulated data. Adaptation effort correlated significantly with Riemannian distinctiveness metrics.",
+      "counterevidence_or_limitation": "The abstract does not report a numerical decoder-accuracy gain or a matched-data-volume comparison; its main reported result concerns the adaptation-effort metric.",
+      "neuroweave_relevance": "Shows a way to adapt data across sessions without retraining the classifier, helping distinguish representation alignment from simply accumulating more decoder-training samples. NeuroWeave could include such a comparator alongside frozen and cumulative retrained decoders."
+    },
+    {
+      "title": "Dynamic source domain selection: An adaptive EEG transfer learning framework for mitigating negative transfer.",
+      "year": 2026,
+      "doi": "10.1016/j.jneumeth.2026.110768",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41941946/",
+      "research_source": "PubMed",
+      "evidence_direction": "context",
+      "key_finding": "The paper describes negative-transfer risk when source and target domains are dissimilar and evaluates dynamic source selection on three motor-imagery EEG datasets, reporting accuracies of 78.78%, 82.11%, and 78.19%, with improvements over baseline algorithms ranging from 0.13% to 27.7%.",
+      "counterevidence_or_limitation": "The abstract focuses on cross-domain and subject variability, not a longitudinal held-out future-session comparison. Its reported improvements do not quantify how often transfer itself reduces performance or isolate data-volume effects.",
+      "neuroweave_relevance": "Contextualizes why adaptation should not be assumed to help every session: source-target mismatch may make transfer risky. NeuroWeave should report per-participant and per-session gains and losses and compare transferred data with a same-volume control."
+    }
+  ]
+}
