@@ -1,0 +1,28 @@
+{
+  "participant": 1,
+  "n_trials": 396,
+  "n_sessions": 6,
+  "classes": [
+    "left_hand",
+    "right_hand"
+  ],
+  "x_shape": [
+    396,
+    22,
+    640
+  ],
+  "contains_nan": false,
+  "contains_infinite": false,
+  "class_counts": {
+    "left_hand": 198,
+    "right_hand": 198
+  },
+  "trials_per_session": {
+    "0": 80,
+    "1": 77,
+    "2": 60,
+    "3": 60,
+    "4": 59,
+    "5": 60
+  }
+}

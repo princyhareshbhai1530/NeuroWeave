@@ -1,0 +1,17 @@
+{
+  "participant": 1,
+  "training_session": "0",
+  "pipeline": "OAS covariance plus Riemannian MDM",
+  "training_trials": 80,
+  "future_test_sessions": 5,
+  "mean_future_balanced_accuracy": 0.5999986039368979,
+  "minimum_future_balanced_accuracy": 0.496551724137931,
+  "maximum_future_balanced_accuracy": 0.7,
+  "mean_future_auc": 0.6510517318938371,
+  "limitations": [
+    "Only one participant has been evaluated.",
+    "Session 0 performance is training-set performance.",
+    "Future-session performance does not prove neuroplasticity.",
+    "Electrode impedance is not available in this dataset."
+  ]
+}

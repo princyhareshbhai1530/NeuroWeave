@@ -1,0 +1,14 @@
+{
+  "participant": 1,
+  "reference_session": "0",
+  "n_sessions": 6,
+  "correlation_between_covariance_distance_and_frozen_accuracy": -0.2677199932935155,
+  "largest_covariance_shift_session": "4",
+  "lowest_frozen_accuracy_session": "4",
+  "limitations": [
+    "Covariance shift does not identify the physical cause of session drift.",
+    "RMS and channel variability are signal-quality proxies.",
+    "Electrode impedance and placement measurements are unavailable.",
+    "The correlation uses only five future sessions."
+  ]
+}

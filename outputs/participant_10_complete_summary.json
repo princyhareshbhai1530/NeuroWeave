@@ -1,0 +1,15 @@
+{
+  "participant": 10,
+  "mean_future_frozen_balanced_accuracy": 0.6535919540229885,
+  "mean_adaptive_balanced_accuracy": 0.6634770114942529,
+  "mean_adaptation_gain": 0.00988505747126438,
+  "largest_covariance_shift_session": "4",
+  "lowest_frozen_accuracy_session": "2",
+  "correlation_between_covariance_distance_and_frozen_accuracy": 0.14151712387822762,
+  "limitations": [
+    "This is a single-participant analysis.",
+    "Decoder performance does not prove neuroplasticity.",
+    "Covariance shift does not identify its physical cause.",
+    "Electrode impedance measurements are unavailable."
+  ]
+}

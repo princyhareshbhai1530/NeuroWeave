@@ -1,0 +1,27 @@
+{
+  "participant": 8,
+  "X_shape": [
+    399,
+    22,
+    640
+  ],
+  "labels": [
+    "left_hand",
+    "right_hand"
+  ],
+  "sessions": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "preprocessing": {
+    "fmin": 8,
+    "fmax": 30,
+    "tmin": 0.0,
+    "tmax": 5.0,
+    "resample": 128
+  }
+}

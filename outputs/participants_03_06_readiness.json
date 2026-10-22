@@ -1,0 +1,146 @@
+[
+  {
+    "participant": 3,
+    "n_trials": 396,
+    "n_sessions": 6,
+    "sessions": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "classes": [
+      "left_hand",
+      "right_hand"
+    ],
+    "x_shape": [
+      396,
+      22,
+      640
+    ],
+    "contains_nan": false,
+    "contains_infinite": false,
+    "class_counts": {
+      "left_hand": 199,
+      "right_hand": 197
+    },
+    "trials_per_session": {
+      "0": 80,
+      "1": 79,
+      "2": 60,
+      "3": 59,
+      "4": 60,
+      "5": 58
+    }
+  },
+  {
+    "participant": 4,
+    "n_trials": 391,
+    "n_sessions": 6,
+    "sessions": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "classes": [
+      "left_hand",
+      "right_hand"
+    ],
+    "x_shape": [
+      391,
+      22,
+      640
+    ],
+    "contains_nan": false,
+    "contains_infinite": false,
+    "class_counts": {
+      "left_hand": 196,
+      "right_hand": 195
+    },
+    "trials_per_session": {
+      "0": 80,
+      "1": 78,
+      "2": 58,
+      "3": 59,
+      "4": 58,
+      "5": 58
+    }
+  },
+  {
+    "participant": 5,
+    "n_trials": 399,
+    "n_sessions": 6,
+    "sessions": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "classes": [
+      "left_hand",
+      "right_hand"
+    ],
+    "x_shape": [
+      399,
+      22,
+      640
+    ],
+    "contains_nan": false,
+    "contains_infinite": false,
+    "class_counts": {
+      "left_hand": 200,
+      "right_hand": 199
+    },
+    "trials_per_session": {
+      "0": 80,
+      "1": 80,
+      "2": 60,
+      "3": 60,
+      "4": 60,
+      "5": 59
+    }
+  },
+  {
+    "participant": 6,
+    "n_trials": 397,
+    "n_sessions": 6,
+    "sessions": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "classes": [
+      "left_hand",
+      "right_hand"
+    ],
+    "x_shape": [
+      397,
+      22,
+      640
+    ],
+    "contains_nan": false,
+    "contains_infinite": false,
+    "class_counts": {
+      "left_hand": 200,
+      "right_hand": 197
+    },
+    "trials_per_session": {
+      "0": 80,
+      "1": 80,
+      "2": 60,
+      "3": 59,
+      "4": 60,
+      "5": 58
+    }
+  }
+]

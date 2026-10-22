@@ -1,0 +1,9 @@
+{
+  "participant": 5,
+  "mean_future_frozen_balanced_accuracy": 0.7138505747126438,
+  "mean_adaptive_balanced_accuracy": 0.6439655172413793,
+  "mean_adaptation_gain": -0.06988505747126436,
+  "largest_covariance_shift_session": "3",
+  "lowest_frozen_accuracy_session": "3",
+  "correlation_between_covariance_distance_and_frozen_accuracy": 0.1779889219779641
+}

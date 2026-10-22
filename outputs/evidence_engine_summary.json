@@ -1,0 +1,24 @@
+{
+  "n_participants": 4,
+  "n_participant_sessions": 20,
+  "thresholds": {
+    "adaptation_gain": 0.1,
+    "large_auc_gap": 0.2,
+    "large_prediction_bias": 0.2,
+    "strong_frozen_accuracy": 0.65,
+    "weak_frozen_accuracy": 0.55
+  },
+  "classification_counts": {
+    "mixed_evidence": 9,
+    "decision_boundary_failure": 8,
+    "stable_frozen_transfer": 2,
+    "decoder_adaptation": 1
+  },
+  "limitations": [
+    "The rules are transparent prototype heuristics.",
+    "Thresholds are not clinically validated.",
+    "The engine does not detect neuroplasticity.",
+    "The engine does not identify the physical cause of drift.",
+    "The analysis includes four selected participants."
+  ]
+}

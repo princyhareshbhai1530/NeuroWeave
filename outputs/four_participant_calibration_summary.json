@@ -1,0 +1,15 @@
+{
+  "n_participants": 4,
+  "n_future_sessions": 20,
+  "large_auc_accuracy_gap_threshold": 0.2,
+  "large_prediction_bias_threshold": 0.2,
+  "sessions_with_large_auc_accuracy_gap": 5,
+  "sessions_with_large_prediction_bias": 12,
+  "limitations": [
+    "AUC measures ranking, not calibrated probability.",
+    "Balanced accuracy depends on the hard decision boundary.",
+    "This audit does not recalibrate using test-session labels.",
+    "Thresholds are descriptive prototype rules.",
+    "The analysis includes four selected participants."
+  ]
+}

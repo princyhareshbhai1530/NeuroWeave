@@ -1,0 +1,17 @@
+{
+  "participant": 1,
+  "evaluation": "Cumulative previous sessions to next unseen session",
+  "pipeline": "OAS covariance plus Riemannian MDM",
+  "mean_adaptive_balanced_accuracy": 0.6129871096840244,
+  "mean_frozen_balanced_accuracy": 0.5999986039368979,
+  "mean_adaptation_gain": 0.012988505747126488,
+  "sessions_with_positive_gain": 2,
+  "sessions_with_negative_gain": 1,
+  "sessions_with_zero_gain": 2,
+  "limitations": [
+    "Only one participant is evaluated.",
+    "Cumulative training increases the available training data.",
+    "Improvement does not independently prove decoder adaptation.",
+    "The current test session is never included in training."
+  ]
+}

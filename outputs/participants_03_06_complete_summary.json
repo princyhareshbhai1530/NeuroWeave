@@ -1,0 +1,38 @@
+[
+  {
+    "participant": 3,
+    "mean_future_frozen_balanced_accuracy": 0.48303271441202467,
+    "mean_adaptive_balanced_accuracy": 0.5605039787798408,
+    "mean_adaptation_gain": 0.07747126436781612,
+    "largest_covariance_shift_session": "2",
+    "lowest_frozen_accuracy_session": "5",
+    "correlation_between_covariance_distance_and_frozen_accuracy": -0.6433999108235696
+  },
+  {
+    "participant": 4,
+    "mean_future_frozen_balanced_accuracy": 0.49521599090564605,
+    "mean_adaptive_balanced_accuracy": 0.5935000631552356,
+    "mean_adaptation_gain": 0.09828407224958949,
+    "largest_covariance_shift_session": "5",
+    "lowest_frozen_accuracy_session": "2",
+    "correlation_between_covariance_distance_and_frozen_accuracy": 0.1321999853530629
+  },
+  {
+    "participant": 5,
+    "mean_future_frozen_balanced_accuracy": 0.7138505747126438,
+    "mean_adaptive_balanced_accuracy": 0.6439655172413793,
+    "mean_adaptation_gain": -0.06988505747126436,
+    "largest_covariance_shift_session": "3",
+    "lowest_frozen_accuracy_session": "3",
+    "correlation_between_covariance_distance_and_frozen_accuracy": 0.1779889219779641
+  },
+  {
+    "participant": 6,
+    "mean_future_frozen_balanced_accuracy": 0.5142980295566503,
+    "mean_adaptive_balanced_accuracy": 0.5182142857142857,
+    "mean_adaptation_gain": 0.00391625615763549,
+    "largest_covariance_shift_session": "3",
+    "lowest_frozen_accuracy_session": "4",
+    "correlation_between_covariance_distance_and_frozen_accuracy": -0.22081025568819632
+  }
+]

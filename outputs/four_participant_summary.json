@@ -1,0 +1,25 @@
+{
+  "participants": [
+    1,
+    2,
+    10,
+    11
+  ],
+  "n_participants": 4,
+  "n_future_session_evaluations": 20,
+  "mean_frozen_balanced_accuracy": 0.592384708455489,
+  "mean_adaptive_balanced_accuracy": 0.6815513751221556,
+  "mean_adaptation_gain": 0.08916666666666667,
+  "sessions_with_positive_gain": 12,
+  "sessions_with_negative_gain": 3,
+  "sessions_with_zero_gain": 5,
+  "participants_with_positive_mean_gain": 4,
+  "limitations": [
+    "Only four selected participants are included.",
+    "Results are descriptive and not population estimates.",
+    "Two participants per protocol group are insufficient for group comparison.",
+    "Cumulative training uses more data than the frozen decoder.",
+    "Decoder improvement does not prove neuroplasticity.",
+    "Covariance shift does not identify the physical cause of drift."
+  ]
+}
