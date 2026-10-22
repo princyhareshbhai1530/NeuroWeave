@@ -316,3 +316,6 @@ Please follow the original dataset's citation and licensing requirements when re
 NeuroWeave is a research prototype designed for scientific investigation and demonstration. The current evidence verdict is explicitly scoped to the validated P3-P9 cohort; additional participants should pass through the same session-aware evaluation and participant-level robustness pipeline before being added to the inferential cohort.
 
 ---
+
+## Publicly Accessible Link
+- [NeuroWeave](https://youtu.be/cd3H1r4Qb7g)
